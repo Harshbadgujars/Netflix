@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="sign-up.css">
+    <link rel="icon" href="logo.png" type="x-icon/image">
+    <title>Netflix/Sign-up</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="sign-up-main">
+      <img src="logo.png" alt="">
+      <div class="sign-up-center">
+        <h1>Sign In</h1>
+        <form class="form was-validated" action="index.html" method="post">
+          <div class="form-floating mt-3 mb-3">
+            <input type="text" name="input" value="" placeholder="Email or phone number" id="email" class="form-control" required>
+            <label for="email">Email or phone number</label>
+            <div class="invalid-feedback">Enter email or phone number</div>
+            <div class="valid-feedback">Ok</div>
+          </div>
+          <div class="form-floating mt-3 mb-3">
+            <input type="password" name="input" value="" placeholder="Email or phone number" id="pass" class="form-control" required>
+            <label for="pass">password</label>
+            <div class="invalid-feedback">Enter password.</div>
+            <div class="valid-feedback">Ok</div>
+         </div>
+            <div class="d-grid">
+            <button type="button" name="button" class="btn btn-danger">Sign In</button>
+         </div>
+         <div class="form-check mt-3">
+           <input type="checkbox" name="" value="" class="form-check-input" id="checck">
+           <label for="checck">Remember me</label>
+         </div>
+         <p id="help">Need help?</p>
+        </form>
+        <div class="foot">
+          <p id="p2">New to Netflix? <a href="#" id="sign">Sign up now</a></p>
+          <p>Thsi page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="#" id="learn"> Learn more.</a></p>
+        </div>
+      </div>
+      <div class="bottom">
+        <h6 id="head">Questions? call 000-800-040-1843</h6>
+        <div class="grid">
+          <div class="grid-item">FAQ</div>
+          <div class="grid-item">Terms of Use</div>
+          <div class="grid-item">Cookie Perferences</div>
+          <div class="grid-item">Help Center</div>
+          <div class="grid-item">Privacy</div>
+          <div class="grid-item">Corporate information</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
